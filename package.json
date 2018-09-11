@@ -1,0 +1,16 @@
+{
+  "name": "speak-app",
+  "homepage": "https://brunoagatao.github.io/speak-app",
+  "version": "1.0.0",
+  "description": "Text to speech and synthesis app using the web speech API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Bruno Agatao",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^1.2.0"
+  }
+}
