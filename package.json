@@ -8,6 +8,10 @@
     "dev": "node index.js",
     "deploy": "gh-pages -d dist"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brunoagatao/speak-app"
+  },
   "author": "Bruno Agatao",
   "license": "MIT",
   "dependencies": {
