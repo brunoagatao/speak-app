@@ -29,7 +29,7 @@ const speak = () => {
 
   const speakText = new SpeechSynthesisUtterance(textInput.value);
 
-  body.style.background = '#141414 url(/dist/img/wave.gif)';
+  body.style.background = '#141414 url(img/wave.gif)';
   body.style.backgroundRepeat = 'repeat-x';
   body.style.backgroundSize = '100% 100%';
 
