@@ -25,7 +25,7 @@ http.createServer(function (req, res) {
   const parsedUrl = url.parse(req.url);
   const sanitizePath = path.normalize(parsedUrl.pathname).replace(/^(\.\.[\/\\])+/, '');
 
-  let pathname = path.join(__dirname, sanitizePath);
+  let pathname = path.join(__dirname, 'dist', sanitizePath);
   fs.exists(pathname, function (exist) {
     if (!exist) {
       res.statusCode = 404;
